@@ -4,7 +4,7 @@
 
 ```r
 library(stats)
-data = read.csv("C://Users/Tommy/Documents/Project/Represearch_week2/activity.csv", header = TRUE, sep = ",", colClasses=c("numeric", "character", "numeric"))
+data = read.csv("activity.csv", header = TRUE, sep = ",", colClasses=c("numeric", "character", "numeric"))
 ```
 
 ## What is mean total number of steps taken per day?
